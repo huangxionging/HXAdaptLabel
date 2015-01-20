@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A3F5A61A4970BE00F8B87E /* HXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A3F5A51A4970BE00F8B87E /* HXRootViewController.m */; };
+		F2A3F5A91A4979FA00F8B87E /* HXAdaptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A3F5A81A4979FA00F8B87E /* HXAdaptViewController.m */; };
+		F2A3F5AC1A497CE900F8B87E /* HXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A3F5AB1A497CE900F8B87E /* HXNavigationController.m */; };
+		F2A77F561A4A615F000667A3 /* navigation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A77F551A4A615F000667A3 /* navigation@2x.png */; };
+		F2A77F5A1A4A6D75000667A3 /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A77F591A4A6D75000667A3 /* HXViewController.m */; };
+		F2DB5D291A514FBD00135D1E /* leftSlide1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DB5D271A514FBD00135D1E /* leftSlide1@2x.png */; };
+		F2DB5D2A1A514FBD00135D1E /* leftSlide2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DB5D281A514FBD00135D1E /* leftSlide2@2x.png */; };
+		F2DFB9721A47EB4600DC7DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFB9711A47EB4600DC7DB4 /* main.m */; };
+		F2DFB9751A47EB4600DC7DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFB9741A47EB4600DC7DB4 /* AppDelegate.m */; };
+		F2DFB9781A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2DFB9761A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodeld */; };
+		F2DFB9801A47EB4600DC7DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DFB97F1A47EB4600DC7DB4 /* Images.xcassets */; };
+		F2DFB98F1A47EB4600DC7DB4 /* HXAdaptLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFB98E1A47EB4600DC7DB4 /* HXAdaptLabelTests.m */; };
+		F2F5872D1A53975600FBA2E2 /* AdaptLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F5872C1A53975600FBA2E2 /* AdaptLabelModel.m */; };
+		F2F587311A539D2200FBA2E2 /* HXAddLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F587301A539D2200FBA2E2 /* HXAddLabelViewController.m */; };
+		F2F7C7831A5FE19F006F2A84 /* AdaptRowlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F7C7821A5FE19F006F2A84 /* AdaptRowlModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2DFB9891A47EB4600DC7DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DFB9641A47EB4600DC7DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DFB96B1A47EB4600DC7DB4;
+			remoteInfo = HXAdaptLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F20365581A650A9500448629 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F2A3F5A41A4970BE00F8B87E /* HXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXRootViewController.h; sourceTree = "<group>"; };
+		F2A3F5A51A4970BE00F8B87E /* HXRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXRootViewController.m; sourceTree = "<group>"; };
+		F2A3F5A71A4979FA00F8B87E /* HXAdaptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAdaptViewController.h; sourceTree = "<group>"; };
+		F2A3F5A81A4979FA00F8B87E /* HXAdaptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAdaptViewController.m; sourceTree = "<group>"; };
+		F2A3F5AA1A497CE900F8B87E /* HXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXNavigationController.h; sourceTree = "<group>"; };
+		F2A3F5AB1A497CE900F8B87E /* HXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXNavigationController.m; sourceTree = "<group>"; };
+		F2A77F551A4A615F000667A3 /* navigation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation@2x.png"; sourceTree = "<group>"; };
+		F2A77F581A4A6D75000667A3 /* HXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXViewController.h; sourceTree = "<group>"; };
+		F2A77F591A4A6D75000667A3 /* HXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXViewController.m; sourceTree = "<group>"; };
+		F2DB5D261A50F19300135D1E /* HXAdaptLabel.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAdaptLabel.pch; sourceTree = "<group>"; };
+		F2DB5D271A514FBD00135D1E /* leftSlide1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftSlide1@2x.png"; sourceTree = "<group>"; };
+		F2DB5D281A514FBD00135D1E /* leftSlide2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftSlide2@2x.png"; sourceTree = "<group>"; };
+		F2DFB96C1A47EB4600DC7DB4 /* HXAdaptLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXAdaptLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFB9701A47EB4600DC7DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFB9711A47EB4600DC7DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2DFB9731A47EB4600DC7DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2DFB9741A47EB4600DC7DB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2DFB9771A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HXAdaptLabel.xcdatamodel; sourceTree = "<group>"; };
+		F2DFB97F1A47EB4600DC7DB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2DFB9881A47EB4600DC7DB4 /* HXAdaptLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXAdaptLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DFB98D1A47EB4600DC7DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFB98E1A47EB4600DC7DB4 /* HXAdaptLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAdaptLabelTests.m; sourceTree = "<group>"; };
+		F2F5872B1A53975600FBA2E2 /* AdaptLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptLabelModel.h; sourceTree = "<group>"; };
+		F2F5872C1A53975600FBA2E2 /* AdaptLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptLabelModel.m; sourceTree = "<group>"; };
+		F2F5872F1A539D2200FBA2E2 /* HXAddLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAddLabelViewController.h; sourceTree = "<group>"; };
+		F2F587301A539D2200FBA2E2 /* HXAddLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAddLabelViewController.m; sourceTree = "<group>"; };
+		F2F7C7811A5FE19F006F2A84 /* AdaptRowlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptRowlModel.h; sourceTree = "<group>"; };
+		F2F7C7821A5FE19F006F2A84 /* AdaptRowlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptRowlModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2DFB9691A47EB4600DC7DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFB9851A47EB4600DC7DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2A77F531A4A6065000667A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2A3F5AA1A497CE900F8B87E /* HXNavigationController.h */,
+				F2A3F5AB1A497CE900F8B87E /* HXNavigationController.m */,
+				F2A77F581A4A6D75000667A3 /* HXViewController.h */,
+				F2A77F591A4A6D75000667A3 /* HXViewController.m */,
+				F2A3F5A41A4970BE00F8B87E /* HXRootViewController.h */,
+				F2A3F5A51A4970BE00F8B87E /* HXRootViewController.m */,
+				F2A3F5A71A4979FA00F8B87E /* HXAdaptViewController.h */,
+				F2A3F5A81A4979FA00F8B87E /* HXAdaptViewController.m */,
+				F2F5872F1A539D2200FBA2E2 /* HXAddLabelViewController.h */,
+				F2F587301A539D2200FBA2E2 /* HXAddLabelViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F2A77F541A4A607F000667A3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFB9731A47EB4600DC7DB4 /* AppDelegate.h */,
+				F2DFB9741A47EB4600DC7DB4 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F2A77F571A4A6166000667A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F2A77F551A4A615F000667A3 /* navigation@2x.png */,
+				F2DB5D271A514FBD00135D1E /* leftSlide1@2x.png */,
+				F2DB5D281A514FBD00135D1E /* leftSlide2@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		F2DFB9631A47EB4600DC7DB4 = {
+			isa = PBXGroup;
+			children = (
+				F2DFB96E1A47EB4600DC7DB4 /* HXAdaptLabel */,
+				F2DFB98B1A47EB4600DC7DB4 /* HXAdaptLabelTests */,
+				F2DFB96D1A47EB4600DC7DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2DFB96D1A47EB4600DC7DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFB96C1A47EB4600DC7DB4 /* HXAdaptLabel.app */,
+				F2DFB9881A47EB4600DC7DB4 /* HXAdaptLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2DFB96E1A47EB4600DC7DB4 /* HXAdaptLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F2A77F541A4A607F000667A3 /* AppDelegate */,
+				F2A77F531A4A6065000667A3 /* ViewControllers */,
+				F2F5872E1A53976500FBA2E2 /* Model */,
+				F2DFB97F1A47EB4600DC7DB4 /* Images.xcassets */,
+				F2DFB9761A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodeld */,
+				F2A77F571A4A6166000667A3 /* Resource */,
+				F2DFB96F1A47EB4600DC7DB4 /* Supporting Files */,
+			);
+			path = HXAdaptLabel;
+			sourceTree = "<group>";
+		};
+		F2DFB96F1A47EB4600DC7DB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2DB5D261A50F19300135D1E /* HXAdaptLabel.pch */,
+				F2DFB9701A47EB4600DC7DB4 /* Info.plist */,
+				F2DFB9711A47EB4600DC7DB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2DFB98B1A47EB4600DC7DB4 /* HXAdaptLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFB98E1A47EB4600DC7DB4 /* HXAdaptLabelTests.m */,
+				F2DFB98C1A47EB4600DC7DB4 /* Supporting Files */,
+			);
+			path = HXAdaptLabelTests;
+			sourceTree = "<group>";
+		};
+		F2DFB98C1A47EB4600DC7DB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFB98D1A47EB4600DC7DB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2F5872E1A53976500FBA2E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2F5872B1A53975600FBA2E2 /* AdaptLabelModel.h */,
+				F2F5872C1A53975600FBA2E2 /* AdaptLabelModel.m */,
+				F2F7C7811A5FE19F006F2A84 /* AdaptRowlModel.h */,
+				F2F7C7821A5FE19F006F2A84 /* AdaptRowlModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2DFB96B1A47EB4600DC7DB4 /* HXAdaptLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFB9921A47EB4600DC7DB4 /* Build configuration list for PBXNativeTarget "HXAdaptLabel" */;
+			buildPhases = (
+				F2DFB9681A47EB4600DC7DB4 /* Sources */,
+				F2DFB9691A47EB4600DC7DB4 /* Frameworks */,
+				F2DFB96A1A47EB4600DC7DB4 /* Resources */,
+				F20365581A650A9500448629 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXAdaptLabel;
+			productName = HXAdaptLabel;
+			productReference = F2DFB96C1A47EB4600DC7DB4 /* HXAdaptLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2DFB9871A47EB4600DC7DB4 /* HXAdaptLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DFB9951A47EB4600DC7DB4 /* Build configuration list for PBXNativeTarget "HXAdaptLabelTests" */;
+			buildPhases = (
+				F2DFB9841A47EB4600DC7DB4 /* Sources */,
+				F2DFB9851A47EB4600DC7DB4 /* Frameworks */,
+				F2DFB9861A47EB4600DC7DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DFB98A1A47EB4600DC7DB4 /* PBXTargetDependency */,
+			);
+			name = HXAdaptLabelTests;
+			productName = HXAdaptLabelTests;
+			productReference = F2DFB9881A47EB4600DC7DB4 /* HXAdaptLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2DFB9641A47EB4600DC7DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = New_Life;
+				TargetAttributes = {
+					F2DFB96B1A47EB4600DC7DB4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F2DFB9871A47EB4600DC7DB4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F2DFB96B1A47EB4600DC7DB4;
+					};
+				};
+			};
+			buildConfigurationList = F2DFB9671A47EB4600DC7DB4 /* Build configuration list for PBXProject "HXAdaptLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2DFB9631A47EB4600DC7DB4;
+			productRefGroup = F2DFB96D1A47EB4600DC7DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2DFB96B1A47EB4600DC7DB4 /* HXAdaptLabel */,
+				F2DFB9871A47EB4600DC7DB4 /* HXAdaptLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2DFB96A1A47EB4600DC7DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A77F561A4A615F000667A3 /* navigation@2x.png in Resources */,
+				F2DFB9801A47EB4600DC7DB4 /* Images.xcassets in Resources */,
+				F2DB5D291A514FBD00135D1E /* leftSlide1@2x.png in Resources */,
+				F2DB5D2A1A514FBD00135D1E /* leftSlide2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFB9861A47EB4600DC7DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2DFB9681A47EB4600DC7DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFB9751A47EB4600DC7DB4 /* AppDelegate.m in Sources */,
+				F2A3F5AC1A497CE900F8B87E /* HXNavigationController.m in Sources */,
+				F2A77F5A1A4A6D75000667A3 /* HXViewController.m in Sources */,
+				F2A3F5A61A4970BE00F8B87E /* HXRootViewController.m in Sources */,
+				F2F7C7831A5FE19F006F2A84 /* AdaptRowlModel.m in Sources */,
+				F2DFB9781A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodeld in Sources */,
+				F2DFB9721A47EB4600DC7DB4 /* main.m in Sources */,
+				F2A3F5A91A4979FA00F8B87E /* HXAdaptViewController.m in Sources */,
+				F2F587311A539D2200FBA2E2 /* HXAddLabelViewController.m in Sources */,
+				F2F5872D1A53975600FBA2E2 /* AdaptLabelModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DFB9841A47EB4600DC7DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DFB98F1A47EB4600DC7DB4 /* HXAdaptLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2DFB98A1A47EB4600DC7DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DFB96B1A47EB4600DC7DB4 /* HXAdaptLabel */;
+			targetProxy = F2DFB9891A47EB4600DC7DB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2DFB9901A47EB4600DC7DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos8.1;
+			};
+			name = Debug;
+		};
+		F2DFB9911A47EB4600DC7DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos8.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2DFB9931A47EB4600DC7DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXAdaptLabel/HXAdaptLabel.pch";
+				INFOPLIST_FILE = HXAdaptLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F2DFB9941A47EB4600DC7DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HXAdaptLabel/HXAdaptLabel.pch";
+				INFOPLIST_FILE = HXAdaptLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F2DFB9961A47EB4600DC7DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HXAdaptLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXAdaptLabel.app/HXAdaptLabel";
+			};
+			name = Debug;
+		};
+		F2DFB9971A47EB4600DC7DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HXAdaptLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXAdaptLabel.app/HXAdaptLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2DFB9671A47EB4600DC7DB4 /* Build configuration list for PBXProject "HXAdaptLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFB9901A47EB4600DC7DB4 /* Debug */,
+				F2DFB9911A47EB4600DC7DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFB9921A47EB4600DC7DB4 /* Build configuration list for PBXNativeTarget "HXAdaptLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFB9931A47EB4600DC7DB4 /* Debug */,
+				F2DFB9941A47EB4600DC7DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DFB9951A47EB4600DC7DB4 /* Build configuration list for PBXNativeTarget "HXAdaptLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DFB9961A47EB4600DC7DB4 /* Debug */,
+				F2DFB9971A47EB4600DC7DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2DFB9761A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2DFB9771A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodel */,
+			);
+			currentVersion = F2DFB9771A47EB4600DC7DB4 /* HXAdaptLabel.xcdatamodel */;
+			path = HXAdaptLabel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2DFB9641A47EB4600DC7DB4 /* Project object */;
+}

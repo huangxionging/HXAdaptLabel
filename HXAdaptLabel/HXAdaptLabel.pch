@@ -1,0 +1,30 @@
+//
+//  HXAdaptLabel.pch
+//  HXAdaptLabel
+//
+//  Created by huangxiong on 14/12/29.
+//  Copyright (c) 2014年 New_Life. All rights reserved.
+//
+
+#ifndef HXAdaptLabel_HXAdaptLabel_pch
+#define HXAdaptLabel_HXAdaptLabel_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  屏幕尺寸信息
+ */
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+/**
+ *  系统版本
+ */
+#define IOS6 ([UIDevice currentDevice].systemVersion.floatValue >= 6.0 && [UIDevice currentDevice].systemVersion.floatValue < 7.0)
+#define IOS7 ([UIDevice currentDevice].systemVersion.floatValue >= 7.0 && [UIDevice currentDevice].systemVersion.floatValue < 8.0)
+#define IOS8 ([UIDevice currentDevice].systemVersion.floatValue >= 8.0 && [UIDevice currentDevice].systemVersion.floatValue < 9.0)
+
+#define MAX_LABEL_WIDTH (280)
+
+#endif
