@@ -189,6 +189,103 @@
             }];
         }]];
         
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        [alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+            
+        }];
+        
+        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+            
+        }]];
+        
+        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+            
+        }]];
+        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+            
+        }]];
+        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+            
+        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+//        [alert addAction: [UIAlertAction actionWithTitle: @"eee" style: UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+//            
+//        }]];
+        
+        
         [self presentViewController: alert animated: YES completion:^{
             
         }];
@@ -198,6 +295,12 @@
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle: @"温馨提示" message: message delegate: nil cancelButtonTitle: nil otherButtonTitles: @"确定", nil];
         [alertView show];
     }
+}
+
+
+- (void)dd
+{
+    
 }
 
 @end
